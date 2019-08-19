@@ -1,0 +1,36 @@
+{
+  "name": "contact",
+  "version": "1.0.0",
+  "description": "A MERN stack contact application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soguazu/contact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soguazu/contact/issues"
+  },
+  "homepage": "https://github.com/soguazu/contact#readme",
+  "devDependencies": {
+    "eslint": "^6.2.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0",
+    "joi": "^14.3.1",
+    "mongoose": "^5.6.9",
+    "morgan": "^1.9.1"
+  }
+}
